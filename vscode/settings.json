@@ -1,0 +1,22 @@
+{
+    "terminal.integrated.shell.windows": "C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "gitlens.advanced.telemetry.enabled": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ff8800",
+        "editorOverviewRuler.warningForeground": "#ff8800"
+    },
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}",
+    "editor.hover.delay": 200,
+    "editor.renderWhitespace": "all"
+}
