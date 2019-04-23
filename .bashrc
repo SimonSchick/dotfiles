@@ -29,10 +29,16 @@ alias gl='git pull'
 alias gst='git status'
 alias glr='git pull --rebase'
 alias grb='git rebase'
+alias grbc='git rebase --continue'
 alias gs='git status'
 alias gss='git status --short'
 alias grs='git reset'
 alias gcmsg='git commit --message'
+alias gca='git commit --amend --no-edit'
+alias gcp='git cherry-pick'
+alias gcph='git push origin head'
+alias gpfff='git push --force'
+alias gcapf='git commit --amend --no-edit && git push -f'
 
 __git_complete gco _git_checkout
 __git_complete gp _git_push
@@ -40,6 +46,7 @@ __git_complete gd _git_diff
 __git_complete grs _git_reset
 __git_complete ga _git_add
 __git_complete gc _git_commit
+__git_complete gcp _git_cherry_pick
 
 # make bash autocomplete with up arrow 
 # add to your ~/.profile
