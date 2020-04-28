@@ -17,6 +17,13 @@
     "explorer.confirmDragAndDrop": false,
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}",
     "editor.hover.delay": 200,
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "editor.renderWhitespace": "all",
-    "workbench.iconTheme": "vscode-icons"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "vscode-icons",
+    "python.jediEnabled": false,
+    "typescript.suggest.completeFunctionCalls": true,
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vsicons.dontShowNewVersionMessage": true
 }
