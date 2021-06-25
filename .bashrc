@@ -39,6 +39,8 @@ alias gcp='git cherry-pick'
 alias gcph='git push origin head'
 alias gpfff='git push --force'
 alias gcapf='git commit --amend --no-edit && git push -f'
+alias gcoh='git push -u origin head'
+
 
 __git_complete gco _git_checkout
 __git_complete gp _git_push
