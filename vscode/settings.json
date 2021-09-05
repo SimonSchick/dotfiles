@@ -1,29 +1,47 @@
 {
-    "terminal.integrated.shell.windows": "C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe",
-    "window.zoomLevel": 0,
-    "explorer.confirmDelete": false,
-    "javascript.preferences.quoteStyle": "single",
-    "typescript.preferences.quoteStyle": "single",
-    "gitlens.advanced.telemetry.enabled": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "workbench.colorCustomizations": {
-        "editorWarning.foreground": "#ff8800",
-        "editorOverviewRuler.warningForeground": "#ff8800"
-    },
-    "typescript.disableAutomaticTypeAcquisition": true,
-    "editor.minimap.enabled": false,
-    "editor.minimap.renderCharacters": false,
-    "explorer.confirmDragAndDrop": false,
-    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}",
-    "editor.hover.delay": 200,
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "editor.renderWhitespace": "all",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.iconTheme": "vscode-icons",
-    "python.jediEnabled": false,
-    "typescript.suggest.completeFunctionCalls": true,
-    "terminal.integrated.rendererType": "experimentalWebgl",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "vsicons.dontShowNewVersionMessage": true
+  "explorer.confirmDelete": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.colorCustomizations": {
+      "editorWarning.foreground": "#ff8800",
+      "editorOverviewRuler.warningForeground": "#ff8800"
+  },
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.title": "${dirty}${activeEditorLong}${separator}${rootName}",
+  "editor.hover.delay": 200,
+  "editor.renderWhitespace": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "typescript.suggest.completeFunctionCalls": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "tslint.ignoreDefinitionFiles": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.renderControlCharacters": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+          "path": [
+              "${env:windir}\\Sysnative\\cmd.exe",
+              "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+          "source": "Git Bash"
+      }
+  }
 }
