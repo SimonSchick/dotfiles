@@ -2,8 +2,7 @@
   "explorer.confirmDelete": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
   "workbench.colorCustomizations": {
     "editorWarning.foreground": "#ff8800",
     "editorOverviewRuler.warningForeground": "#ff8800"
@@ -19,8 +18,6 @@
   "workbench.iconTheme": "vscode-icons",
   "typescript.suggest.completeFunctionCalls": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "tslint.ignoreDefinitionFiles": false,
   "workbench.editor.untitled.hint": "hidden",
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "open",
@@ -55,5 +52,6 @@
   "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
